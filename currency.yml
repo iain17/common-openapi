@@ -4,7 +4,6 @@ currency:
   description: Monetary unit for the salary and fee. (ISO 4217)
   enum:
     - AFN
-    - AFN
     - EUR
     - ALL
     - DZD
