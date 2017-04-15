@@ -1,0 +1,7 @@
+#Based on https://developer.linkedin.com/docs/reference/currency-codes
+currency:
+  type: string
+  enum:
+    - example1
+    - example2
+    - example3
