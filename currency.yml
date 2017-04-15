@@ -1,174 +1,185 @@
-# Based on https://developer.linkedin.com/docs/reference/currency-codes
+# ISO 4217 Currency Codes
 currency:
   type: string
-  description: Monetary unit for the salary and fee
+  description: Monetary unit for the salary and fee. (ISO 4217)
   enum:
-    - AED
     - AFN
+    - AFN
+    - EUR
     - ALL
-    - AMD
-    - ANG
+    - DZD
+    - USD
     - AOA
+    - XCD
     - ARS
-    - AUD
+    - AMD
     - AWG
+    - AUD
     - AZN
-    - BAM
-    - BBD
-    - BDT
-    - BGN
-    - BHD
-    - BIF
-    - BMD
-    - BND
-    - BOB
-    - BRL
     - BSD
-    - BTN
-    - BWP
+    - BHD
+    - BDT
+    - BBD
     - BYR
     - BZD
+    - XOF
+    - BMD
+    - BTN
+    - INR
+    - BOB
+    - BOV
+    - BAM
+    - BWP
+    - NOK
+    - BRL
+    - BND
+    - BGN
+    - BIF
+    - KHR
+    - XAF
     - CAD
-    - CDF
-    - CHF
+    - CVE
+    - KYD
+    - CLF
     - CLP
     - CNY
     - COP
+    - COU
+    - KMF
+    - CDF
+    - NZD
     - CRC
+    - HRK
+    - CUC
     - CUP
-    - CVE
+    - ANG
     - CZK
-    - DJF
     - DKK
+    - DJF
     - DOP
-    - DZD
-    - EEK
     - EGP
+    - SVC
     - ERN
     - ETB
-    - EUR
-    - FJD
     - FKP
-    - GBP
+    - FJD
+    - XPF
+    - GMD
     - GEL
-    - GGP
     - GHS
     - GIP
-    - GMD
-    - GNF
     - GTQ
+    - GBP
+    - GNF
     - GYD
-    - HKD
-    - HNL
-    - HRK
     - HTG
+    - HNL
+    - HKD
     - HUF
-    - IDR
-    - ILS
-    - IMP
-    - INR
-    - IQD
-    - IRR
     - ISK
-    - JEP
+    - IDR
+    - XDR
+    - IRR
+    - IQD
+    - ILS
     - JMD
-    - JOD
     - JPY
-    - KES
-    - KGS
-    - KHR
-    - KMF
-    - KPW
-    - KPW
-    - KWD
-    - KYD
+    - JOD
     - KZT
+    - KES
+    - KPW
+    - KRW
+    - KWD
+    - KGS
     - LAK
     - LBP
-    - LKR
-    - LRD
     - LSL
-    - LTL
-    - LVL
+    - ZAR
+    - LRD
     - LYD
-    - MAD
-    - MDL
-    - MGA
-    - MKD
-    - MMK
-    - MNT
+    - CHF
+    - LTL
     - MOP
+    - MKD
+    - MGA
+    - MWK
+    - MYR
+    - MVR
     - MRO
     - MUR
-    - MVR
-    - MWK
+    - XUA
     - MXN
-    - MYR
+    - MXV
+    - MDL
+    - MNT
+    - MAD
     - MZN
+    - MMK
     - NAD
-    - NGN
-    - NIO
-    - NOK
     - NPR
-    - NZD
+    - NIO
+    - NGN
     - OMR
-    - PAB
-    - PEN
-    - PGK
-    - PHP
     - PKR
-    - PLN
+    - PAB
+    - PGK
     - PYG
+    - PEN
+    - PHP
+    - PLN
     - QAR
     - RON
-    - RSD
     - RUB
     - RWF
-    - SAR
-    - SBD
-    - SCR
-    - SDG
-    - SEK
-    - SGD
     - SHP
-    - SKK
-    - SLL
-    - SOS
-    - SPL
-    - SRD
+    - WST
     - STD
-    - SVC
-    - SYP
+    - SAR
+    - RSD
+    - SCR
+    - SLL
+    - SGD
+    - XSU
+    - SBD
+    - SOS
+    - SSP
+    - LKR
+    - SDG
+    - SRD
     - SZL
-    - THB
-    - TJS
-    - TMM
-    - TND
-    - TOP
-    - TRY
-    - TTD
-    - TVD
+    - SEK
+    - CHE
+    - CHW
+    - SYP
     - TWD
+    - TJS
     - TZS
-    - UAH
+    - THB
+    - TOP
+    - TTD
+    - TND
+    - TRY
+    - TMT
     - UGX
-    - USD
+    - UAH
+    - AED
+    - USN
+    - UYI
     - UYU
     - UZS
+    - VUV
     - VEF
     - VND
-    - VUV
-    - WST
-    - XAF
-    - XAG
-    - XAU
-    - XCD
-    - XDR
-    - XOF
-    - XPD
-    - XPF
-    - XPT
     - YER
-    - ZAR
-    - ZMK
-    - ZWD
+    - ZMW
+    - ZWL
+    - XBA
+    - XBB
+    - XBC
+    - XBD
+    - XTS
+    - XXX
+    - XAU
+    - XPD
+    - XPT
+    - XAG
