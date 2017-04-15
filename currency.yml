@@ -1,7 +1,6 @@
-currency:
-  type: string
-  description: Monetary unit for the salary and fee
-  enum:
-    - example1
-    - example2
-    - Full-time
+type: string
+description: Monetary unit for the salary and fee
+enum:
+  - example1
+  - example2
+  - Full-time
