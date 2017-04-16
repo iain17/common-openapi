@@ -21,3 +21,10 @@ The defintion files are used to map the short codes to a descriptive name. This 
 ## Why
 
 I made this repo because I couldn't find an existing one doing this. Using this yml files in the root of this project I can quickly reference all the possible countries or currencies.
+
+## Sources
+
+Please see the script for the specific source. But here is a general list of what I've used:
+
+- [Linkedin's industry codes](https://developer.linkedin.com/docs/reference/industry-codes)
+- [Frictionless Data](http://data.okfn.org)

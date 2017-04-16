@@ -1,0 +1,737 @@
+[
+ {
+   "FIELD1": "47",
+   "FIELD2": "corp, fin",
+   "FIELD3": "Accounting"
+ },
+ {
+   "FIELD1": "94",
+   "FIELD2": "man, tech, tran",
+   "FIELD3": "Airlines/Aviation"
+ },
+ {
+   "FIELD1": "120",
+   "FIELD2": "leg, org",
+   "FIELD3": "Alternative Dispute Resolution"
+ },
+ {
+   "FIELD1": "125",
+   "FIELD2": "hlth",
+   "FIELD3": "Alternative Medicine"
+ },
+ {
+   "FIELD1": "127",
+   "FIELD2": "art, med",
+   "FIELD3": "Animation"
+ },
+ {
+   "FIELD1": "19",
+   "FIELD2": "good",
+   "FIELD3": "Apparel & Fashion"
+ },
+ {
+   "FIELD1": "50",
+   "FIELD2": "cons",
+   "FIELD3": "Architecture & Planning"
+ },
+ {
+   "FIELD1": "111",
+   "FIELD2": "art, med, rec",
+   "FIELD3": "Arts and Crafts"
+ },
+ {
+   "FIELD1": "53",
+   "FIELD2": "man",
+   "FIELD3": "Automotive"
+ },
+ {
+   "FIELD1": "52",
+   "FIELD2": "gov, man",
+   "FIELD3": "Aviation & Aerospace"
+ },
+ {
+   "FIELD1": "41",
+   "FIELD2": "fin",
+   "FIELD3": "Banking"
+ },
+ {
+   "FIELD1": "12",
+   "FIELD2": "gov, hlth, tech",
+   "FIELD3": "Biotechnology"
+ },
+ {
+   "FIELD1": "36",
+   "FIELD2": "med, rec",
+   "FIELD3": "Broadcast Media"
+ },
+ {
+   "FIELD1": "49",
+   "FIELD2": "cons",
+   "FIELD3": "Building Materials"
+ },
+ {
+   "FIELD1": "138",
+   "FIELD2": "corp, man",
+   "FIELD3": "Business Supplies and Equipment"
+ },
+ {
+   "FIELD1": "129",
+   "FIELD2": "fin",
+   "FIELD3": "Capital Markets"
+ },
+ {
+   "FIELD1": "54",
+   "FIELD2": "man",
+   "FIELD3": "Chemicals"
+ },
+ {
+   "FIELD1": "90",
+   "FIELD2": "org, serv",
+   "FIELD3": "Civic & Social Organization"
+ },
+ {
+   "FIELD1": "51",
+   "FIELD2": "cons, gov",
+   "FIELD3": "Civil Engineering"
+ },
+ {
+   "FIELD1": "128",
+   "FIELD2": "cons, corp, fin",
+   "FIELD3": "Commercial Real Estate"
+ },
+ {
+   "FIELD1": "118",
+   "FIELD2": "tech",
+   "FIELD3": "Computer & Network Security"
+ },
+ {
+   "FIELD1": "109",
+   "FIELD2": "med, rec",
+   "FIELD3": "Computer Games"
+ },
+ {
+   "FIELD1": "3",
+   "FIELD2": "tech",
+   "FIELD3": "Computer Hardware"
+ },
+ {
+   "FIELD1": "5",
+   "FIELD2": "tech",
+   "FIELD3": "Computer Networking"
+ },
+ {
+   "FIELD1": "4",
+   "FIELD2": "tech",
+   "FIELD3": "Computer Software"
+ },
+ {
+   "FIELD1": "48",
+   "FIELD2": "cons",
+   "FIELD3": "Construction"
+ },
+ {
+   "FIELD1": "24",
+   "FIELD2": "good, man",
+   "FIELD3": "Consumer Electronics"
+ },
+ {
+   "FIELD1": "25",
+   "FIELD2": "good, man",
+   "FIELD3": "Consumer Goods"
+ },
+ {
+   "FIELD1": "91",
+   "FIELD2": "org, serv",
+   "FIELD3": "Consumer Services"
+ },
+ {
+   "FIELD1": "18",
+   "FIELD2": "good",
+   "FIELD3": "Cosmetics"
+ },
+ {
+   "FIELD1": "65",
+   "FIELD2": "agr",
+   "FIELD3": "Dairy"
+ },
+ {
+   "FIELD1": "1",
+   "FIELD2": "gov, tech",
+   "FIELD3": "Defense & Space"
+ },
+ {
+   "FIELD1": "99",
+   "FIELD2": "art, med",
+   "FIELD3": "Design"
+ },
+ {
+   "FIELD1": "69",
+   "FIELD2": "edu",
+   "FIELD3": "Education Management"
+ },
+ {
+   "FIELD1": "132",
+   "FIELD2": "edu, org",
+   "FIELD3": "E-Learning"
+ },
+ {
+   "FIELD1": "112",
+   "FIELD2": "good, man",
+   "FIELD3": "Electrical/Electronic Manufacturing"
+ },
+ {
+   "FIELD1": "28",
+   "FIELD2": "med, rec",
+   "FIELD3": "Entertainment"
+ },
+ {
+   "FIELD1": "86",
+   "FIELD2": "org, serv",
+   "FIELD3": "Environmental Services"
+ },
+ {
+   "FIELD1": "110",
+   "FIELD2": "corp, rec, serv",
+   "FIELD3": "Events Services"
+ },
+ {
+   "FIELD1": "76",
+   "FIELD2": "gov",
+   "FIELD3": "Executive Office"
+ },
+ {
+   "FIELD1": "122",
+   "FIELD2": "corp, serv",
+   "FIELD3": "Facilities Services"
+ },
+ {
+   "FIELD1": "63",
+   "FIELD2": "agr",
+   "FIELD3": "Farming"
+ },
+ {
+   "FIELD1": "43",
+   "FIELD2": "fin",
+   "FIELD3": "Financial Services"
+ },
+ {
+   "FIELD1": "38",
+   "FIELD2": "art, med, rec",
+   "FIELD3": "Fine Art"
+ },
+ {
+   "FIELD1": "66",
+   "FIELD2": "agr",
+   "FIELD3": "Fishery"
+ },
+ {
+   "FIELD1": "34",
+   "FIELD2": "rec, serv",
+   "FIELD3": "Food & Beverages"
+ },
+ {
+   "FIELD1": "23",
+   "FIELD2": "good, man, serv",
+   "FIELD3": "Food Production"
+ },
+ {
+   "FIELD1": "101",
+   "FIELD2": "org",
+   "FIELD3": "Fund-Raising"
+ },
+ {
+   "FIELD1": "26",
+   "FIELD2": "good, man",
+   "FIELD3": "Furniture"
+ },
+ {
+   "FIELD1": "29",
+   "FIELD2": "rec",
+   "FIELD3": "Gambling & Casinos"
+ },
+ {
+   "FIELD1": "145",
+   "FIELD2": "cons, man",
+   "FIELD3": "Glass, Ceramics & Concrete"
+ },
+ {
+   "FIELD1": "75",
+   "FIELD2": "gov",
+   "FIELD3": "Government Administration"
+ },
+ {
+   "FIELD1": "148",
+   "FIELD2": "gov",
+   "FIELD3": "Government Relations"
+ },
+ {
+   "FIELD1": "140",
+   "FIELD2": "art, med",
+   "FIELD3": "Graphic Design"
+ },
+ {
+   "FIELD1": "124",
+   "FIELD2": "hlth, rec",
+   "FIELD3": "Health, Wellness and Fitness"
+ },
+ {
+   "FIELD1": "68",
+   "FIELD2": "edu",
+   "FIELD3": "Higher Education"
+ },
+ {
+   "FIELD1": "14",
+   "FIELD2": "hlth",
+   "FIELD3": "Hospital & Health Care"
+ },
+ {
+   "FIELD1": "31",
+   "FIELD2": "rec, serv, tran",
+   "FIELD3": "Hospitality"
+ },
+ {
+   "FIELD1": "137",
+   "FIELD2": "corp",
+   "FIELD3": "Human Resources"
+ },
+ {
+   "FIELD1": "134",
+   "FIELD2": "corp, good, tran",
+   "FIELD3": "Import and Export"
+ },
+ {
+   "FIELD1": "88",
+   "FIELD2": "org, serv",
+   "FIELD3": "Individual & Family Services"
+ },
+ {
+   "FIELD1": "147",
+   "FIELD2": "cons, man",
+   "FIELD3": "Industrial Automation"
+ },
+ {
+   "FIELD1": "84",
+   "FIELD2": "med, serv",
+   "FIELD3": "Information Services"
+ },
+ {
+   "FIELD1": "96",
+   "FIELD2": "tech",
+   "FIELD3": "Information Technology and Services"
+ },
+ {
+   "FIELD1": "42",
+   "FIELD2": "fin",
+   "FIELD3": "Insurance"
+ },
+ {
+   "FIELD1": "74",
+   "FIELD2": "gov",
+   "FIELD3": "International Affairs"
+ },
+ {
+   "FIELD1": "141",
+   "FIELD2": "gov, org, tran",
+   "FIELD3": "International Trade and Development"
+ },
+ {
+   "FIELD1": "6",
+   "FIELD2": "tech",
+   "FIELD3": "Internet"
+ },
+ {
+   "FIELD1": "45",
+   "FIELD2": "fin",
+   "FIELD3": "Investment Banking"
+ },
+ {
+   "FIELD1": "46",
+   "FIELD2": "fin",
+   "FIELD3": "Investment Management"
+ },
+ {
+   "FIELD1": "73",
+   "FIELD2": "gov, leg",
+   "FIELD3": "Judiciary"
+ },
+ {
+   "FIELD1": "77",
+   "FIELD2": "gov, leg",
+   "FIELD3": "Law Enforcement"
+ },
+ {
+   "FIELD1": "9",
+   "FIELD2": "leg",
+   "FIELD3": "Law Practice"
+ },
+ {
+   "FIELD1": "10",
+   "FIELD2": "leg",
+   "FIELD3": "Legal Services"
+ },
+ {
+   "FIELD1": "72",
+   "FIELD2": "gov, leg",
+   "FIELD3": "Legislative Office"
+ },
+ {
+   "FIELD1": "30",
+   "FIELD2": "rec, serv, tran",
+   "FIELD3": "Leisure, Travel & Tourism"
+ },
+ {
+   "FIELD1": "85",
+   "FIELD2": "med, rec, serv",
+   "FIELD3": "Libraries"
+ },
+ {
+   "FIELD1": "116",
+   "FIELD2": "corp, tran",
+   "FIELD3": "Logistics and Supply Chain"
+ },
+ {
+   "FIELD1": "143",
+   "FIELD2": "good",
+   "FIELD3": "Luxury Goods & Jewelry"
+ },
+ {
+   "FIELD1": "55",
+   "FIELD2": "man",
+   "FIELD3": "Machinery"
+ },
+ {
+   "FIELD1": "11",
+   "FIELD2": "corp",
+   "FIELD3": "Management Consulting"
+ },
+ {
+   "FIELD1": "95",
+   "FIELD2": "tran",
+   "FIELD3": "Maritime"
+ },
+ {
+   "FIELD1": "97",
+   "FIELD2": "corp",
+   "FIELD3": "Market Research"
+ },
+ {
+   "FIELD1": "80",
+   "FIELD2": "corp, med",
+   "FIELD3": "Marketing and Advertising"
+ },
+ {
+   "FIELD1": "135",
+   "FIELD2": "cons, gov, man",
+   "FIELD3": "Mechanical or Industrial Engineering"
+ },
+ {
+   "FIELD1": "126",
+   "FIELD2": "med, rec",
+   "FIELD3": "Media Production"
+ },
+ {
+   "FIELD1": "17",
+   "FIELD2": "hlth",
+   "FIELD3": "Medical Devices"
+ },
+ {
+   "FIELD1": "13",
+   "FIELD2": "hlth",
+   "FIELD3": "Medical Practice"
+ },
+ {
+   "FIELD1": "139",
+   "FIELD2": "hlth",
+   "FIELD3": "Mental Health Care"
+ },
+ {
+   "FIELD1": "71",
+   "FIELD2": "gov",
+   "FIELD3": "Military"
+ },
+ {
+   "FIELD1": "56",
+   "FIELD2": "man",
+   "FIELD3": "Mining & Metals"
+ },
+ {
+   "FIELD1": "35",
+   "FIELD2": "art, med, rec",
+   "FIELD3": "Motion Pictures and Film"
+ },
+ {
+   "FIELD1": "37",
+   "FIELD2": "art, med, rec",
+   "FIELD3": "Museums and Institutions"
+ },
+ {
+   "FIELD1": "115",
+   "FIELD2": "art, rec",
+   "FIELD3": "Music"
+ },
+ {
+   "FIELD1": "114",
+   "FIELD2": "gov, man, tech",
+   "FIELD3": "Nanotechnology"
+ },
+ {
+   "FIELD1": "81",
+   "FIELD2": "med, rec",
+   "FIELD3": "Newspapers"
+ },
+ {
+   "FIELD1": "100",
+   "FIELD2": "org",
+   "FIELD3": "Non-Profit Organization Management"
+ },
+ {
+   "FIELD1": "57",
+   "FIELD2": "man",
+   "FIELD3": "Oil & Energy"
+ },
+ {
+   "FIELD1": "113",
+   "FIELD2": "med",
+   "FIELD3": "Online Media"
+ },
+ {
+   "FIELD1": "123",
+   "FIELD2": "corp",
+   "FIELD3": "Outsourcing/Offshoring"
+ },
+ {
+   "FIELD1": "87",
+   "FIELD2": "serv, tran",
+   "FIELD3": "Package/Freight Delivery"
+ },
+ {
+   "FIELD1": "146",
+   "FIELD2": "good, man",
+   "FIELD3": "Packaging and Containers"
+ },
+ {
+   "FIELD1": "61",
+   "FIELD2": "man",
+   "FIELD3": "Paper & Forest Products"
+ },
+ {
+   "FIELD1": "39",
+   "FIELD2": "art, med, rec",
+   "FIELD3": "Performing Arts"
+ },
+ {
+   "FIELD1": "15",
+   "FIELD2": "hlth, tech",
+   "FIELD3": "Pharmaceuticals"
+ },
+ {
+   "FIELD1": "131",
+   "FIELD2": "org",
+   "FIELD3": "Philanthropy"
+ },
+ {
+   "FIELD1": "136",
+   "FIELD2": "art, med, rec",
+   "FIELD3": "Photography"
+ },
+ {
+   "FIELD1": "117",
+   "FIELD2": "man",
+   "FIELD3": "Plastics"
+ },
+ {
+   "FIELD1": "107",
+   "FIELD2": "gov, org",
+   "FIELD3": "Political Organization"
+ },
+ {
+   "FIELD1": "67",
+   "FIELD2": "edu",
+   "FIELD3": "Primary/Secondary Education"
+ },
+ {
+   "FIELD1": "83",
+   "FIELD2": "med, rec",
+   "FIELD3": "Printing"
+ },
+ {
+   "FIELD1": "105",
+   "FIELD2": "corp",
+   "FIELD3": "Professional Training & Coaching"
+ },
+ {
+   "FIELD1": "102",
+   "FIELD2": "corp, org",
+   "FIELD3": "Program Development"
+ },
+ {
+   "FIELD1": "79",
+   "FIELD2": "gov",
+   "FIELD3": "Public Policy"
+ },
+ {
+   "FIELD1": "98",
+   "FIELD2": "corp",
+   "FIELD3": "Public Relations and Communications"
+ },
+ {
+   "FIELD1": "78",
+   "FIELD2": "gov",
+   "FIELD3": "Public Safety"
+ },
+ {
+   "FIELD1": "82",
+   "FIELD2": "med, rec",
+   "FIELD3": "Publishing"
+ },
+ {
+   "FIELD1": "62",
+   "FIELD2": "man",
+   "FIELD3": "Railroad Manufacture"
+ },
+ {
+   "FIELD1": "64",
+   "FIELD2": "agr",
+   "FIELD3": "Ranching"
+ },
+ {
+   "FIELD1": "44",
+   "FIELD2": "cons, fin, good",
+   "FIELD3": "Real Estate"
+ },
+ {
+   "FIELD1": "40",
+   "FIELD2": "rec, serv",
+   "FIELD3": "Recreational Facilities and Services"
+ },
+ {
+   "FIELD1": "89",
+   "FIELD2": "org, serv",
+   "FIELD3": "Religious Institutions"
+ },
+ {
+   "FIELD1": "144",
+   "FIELD2": "gov, man, org",
+   "FIELD3": "Renewables & Environment"
+ },
+ {
+   "FIELD1": "70",
+   "FIELD2": "edu, gov",
+   "FIELD3": "Research"
+ },
+ {
+   "FIELD1": "32",
+   "FIELD2": "rec, serv",
+   "FIELD3": "Restaurants"
+ },
+ {
+   "FIELD1": "27",
+   "FIELD2": "good, man",
+   "FIELD3": "Retail"
+ },
+ {
+   "FIELD1": "121",
+   "FIELD2": "corp, org, serv",
+   "FIELD3": "Security and Investigations"
+ },
+ {
+   "FIELD1": "7",
+   "FIELD2": "tech",
+   "FIELD3": "Semiconductors"
+ },
+ {
+   "FIELD1": "58",
+   "FIELD2": "man",
+   "FIELD3": "Shipbuilding"
+ },
+ {
+   "FIELD1": "20",
+   "FIELD2": "good, rec",
+   "FIELD3": "Sporting Goods"
+ },
+ {
+   "FIELD1": "33",
+   "FIELD2": "rec",
+   "FIELD3": "Sports"
+ },
+ {
+   "FIELD1": "104",
+   "FIELD2": "corp",
+   "FIELD3": "Staffing and Recruiting"
+ },
+ {
+   "FIELD1": "22",
+   "FIELD2": "good",
+   "FIELD3": "Supermarkets"
+ },
+ {
+   "FIELD1": "8",
+   "FIELD2": "gov, tech",
+   "FIELD3": "Telecommunications"
+ },
+ {
+   "FIELD1": "60",
+   "FIELD2": "man",
+   "FIELD3": "Textiles"
+ },
+ {
+   "FIELD1": "130",
+   "FIELD2": "gov, org",
+   "FIELD3": "Think Tanks"
+ },
+ {
+   "FIELD1": "21",
+   "FIELD2": "good",
+   "FIELD3": "Tobacco"
+ },
+ {
+   "FIELD1": "108",
+   "FIELD2": "corp, gov, serv",
+   "FIELD3": "Translation and Localization"
+ },
+ {
+   "FIELD1": "92",
+   "FIELD2": "tran",
+   "FIELD3": "Transportation/Trucking/Railroad"
+ },
+ {
+   "FIELD1": "59",
+   "FIELD2": "man",
+   "FIELD3": "Utilities"
+ },
+ {
+   "FIELD1": "106",
+   "FIELD2": "fin, tech",
+   "FIELD3": "Venture Capital & Private Equity"
+ },
+ {
+   "FIELD1": "16",
+   "FIELD2": "hlth",
+   "FIELD3": "Veterinary"
+ },
+ {
+   "FIELD1": "93",
+   "FIELD2": "tran",
+   "FIELD3": "Warehousing"
+ },
+ {
+   "FIELD1": "133",
+   "FIELD2": "good",
+   "FIELD3": "Wholesale"
+ },
+ {
+   "FIELD1": "142",
+   "FIELD2": "good, man, rec",
+   "FIELD3": "Wine and Spirits"
+ },
+ {
+   "FIELD1": "119",
+   "FIELD2": "tech",
+   "FIELD3": "Wireless"
+ },
+ {
+   "FIELD1": "103",
+   "FIELD2": "art, med, rec",
+   "FIELD3": "Writing and Editing"
+ }
+]

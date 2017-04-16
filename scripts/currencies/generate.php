@@ -27,5 +27,5 @@
     
     //https://www.json2yaml.com/
     file_put_contents("values.json", json_encode($values));
-    file_put_contents("values_def.json", json_encode($definitions));
+    file_put_contents("../../currency_def.json", json_encode($definitions));
 ?>
