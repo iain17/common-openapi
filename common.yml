@@ -1,0 +1,35 @@
+Error:
+  required:
+    - code
+    - message
+  properties:
+    code:
+      type: integer
+      format: int32
+    message:
+      type: string
+Address:
+  required:
+    - country
+    - division
+    - locality
+    - postalCode
+    - lines
+  properties:
+    country:
+      $ref: "https://raw.githubusercontent.com/iain17/common-openapi/master/country.yml#/country"
+    division:
+      type: string
+      description: The country principal subdivision where this address is located.
+    locality:
+      type: string
+      description: City, town or village where this address is located.
+      minLength: 2
+      maxLength: 128
+    postalCode:
+      type: string
+    lines:
+      type: array
+      description: Street address specficiation. An address requires at least one line.
+      items:
+        type: string
