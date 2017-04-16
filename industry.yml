@@ -1,6 +1,6 @@
 industry:
-  type: string
-  description: Monetary unit for the salary and fee. (ISO 4217)
+  type: number
+  description: Industry of a company. (Based on Linked-in)
     - 47
     - 94
     - 120
