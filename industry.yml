@@ -1,5 +1,5 @@
 industry:
-  type: number
+  type: integer
   description: Industry of a organisation or company. (Based on Linked-in data)
   enum:
     - 47
