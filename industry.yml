@@ -1,6 +1,7 @@
 industry:
   type: number
-  description: Industry of a company. (Based on Linked-in)
+  description: Industry of a organisation or company. (Based on Linked-in data)
+  enum:
     - 47
     - 94
     - 120
