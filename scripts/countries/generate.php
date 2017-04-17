@@ -7,7 +7,7 @@
     $rawCountries = json_decode($json, true);
 
     foreach($rawCountries as $rawCountry) {
-        $code = $rawCountry['alpha-3'];
+        $code = $rawCountry['alpha-2'];
         $value = $rawCountry['name'];
 
         $values[] = $code;
