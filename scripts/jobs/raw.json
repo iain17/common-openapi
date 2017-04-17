@@ -1,0 +1,132 @@
+[
+ {
+   "FIELD1": "1",
+   "FIELD2": "acct",
+   "FIELD3": "Accounting"
+ },
+ {
+   "FIELD1": "2",
+   "FIELD2": "admn",
+   "FIELD3": "Administrative"
+ },
+ {
+   "FIELD1": "3",
+   "FIELD2": "cre",
+   "FIELD3": "Arts and Design"
+ },
+ {
+   "FIELD1": "4",
+   "FIELD2": "bd",
+   "FIELD3": "Business Development"
+ },
+ {
+   "FIELD1": "5",
+   "FIELD2": "css",
+   "FIELD3": "Community & Social Services"
+ },
+ {
+   "FIELD1": "6",
+   "FIELD2": "cnsl",
+   "FIELD3": "Consulting"
+ },
+ {
+   "FIELD1": "7",
+   "FIELD2": "edu",
+   "FIELD3": "Education"
+ },
+ {
+   "FIELD1": "8",
+   "FIELD2": "eng",
+   "FIELD3": "Engineering"
+ },
+ {
+   "FIELD1": "9",
+   "FIELD2": "ent",
+   "FIELD3": "Entrepreneurship"
+ },
+ {
+   "FIELD1": "10",
+   "FIELD2": "finc",
+   "FIELD3": "Finance"
+ },
+ {
+   "FIELD1": "11",
+   "FIELD2": "med",
+   "FIELD3": "Healthcare Services"
+ },
+ {
+   "FIELD1": "12",
+   "FIELD2": "hr",
+   "FIELD3": "Human Resources"
+ },
+ {
+   "FIELD1": "13",
+   "FIELD2": "it",
+   "FIELD3": "Information Technology"
+ },
+ {
+   "FIELD1": "14",
+   "FIELD2": "lgl",
+   "FIELD3": "Legal"
+ },
+ {
+   "FIELD1": "15",
+   "FIELD2": "mktg",
+   "FIELD3": "Marketing"
+ },
+ {
+   "FIELD1": "16",
+   "FIELD2": "pr",
+   "FIELD3": "Media & Communications"
+ },
+ {
+   "FIELD1": "17",
+   "FIELD2": "mps",
+   "FIELD3": "Military & Protective Services"
+ },
+ {
+   "FIELD1": "18",
+   "FIELD2": "ops",
+   "FIELD3": "Operations"
+ },
+ {
+   "FIELD1": "19",
+   "FIELD2": "prod",
+   "FIELD3": "Product Management"
+ },
+ {
+   "FIELD1": "20",
+   "FIELD2": "ppm",
+   "FIELD3": "Program & Product Management"
+ },
+ {
+   "FIELD1": "21",
+   "FIELD2": "buy",
+   "FIELD3": "Purchasing"
+ },
+ {
+   "FIELD1": "22",
+   "FIELD2": "qa",
+   "FIELD3": "Quality Assurance"
+ },
+ {
+   "FIELD1": "23",
+   "FIELD2": "re",
+   "FIELD3": "Real Estate"
+ },
+ {
+   "FIELD1": "24",
+   "FIELD2": "acad",
+   "FIELD3": "Research"
+ },
+ {
+   "FIELD1": "25",
+   "FIELD2": "sale",
+   "FIELD3": "Sales"
+ },
+ {
+   "FIELD1": "26",
+   "FIELD2": "supp",
+   "FIELD3": "Support"
+ }
+]
