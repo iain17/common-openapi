@@ -1,4 +1,4 @@
-job:type: integer
+job:
   description: The job code. (Based on Linked-in data)
   enum:
     - 1
