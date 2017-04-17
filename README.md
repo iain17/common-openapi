@@ -28,3 +28,4 @@ Please see the script for the specific source. But here is a general list of wha
 
 - [Linkedin's industry codes](https://developer.linkedin.com/docs/reference/industry-codes)
 - [Frictionless Data](http://data.okfn.org)
+- [maxmind's cities database](https://www.maxmind.com/en/free-world-cities-database)

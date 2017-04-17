@@ -6,11 +6,11 @@
     //+
     //http://convertjson.com/html-table-to-json.htm
     $json = file_get_contents("raw.json");
-    $rawCurrencies = json_decode($json, true);
+    $rawValues = json_decode($json, true);
 
-    foreach($rawCurrencies as $rawCurrency) {
-        $code = intval($rawCurrency['FIELD1']);
-        $value = $rawCurrency['FIELD3'];
+    foreach($rawValues as $rawValue) {
+        $code = intval($rawValue['FIELD1']);
+        $value = $rawValue['FIELD3'];
     
         $values[] = $code;
         $definitions[$code] = $value;
