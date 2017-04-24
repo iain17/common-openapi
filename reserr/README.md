@@ -12,12 +12,29 @@ Make sure you use the [error definition in common.yml](../common.yml) in your re
 	}
 ```
 
+Json:
+
+```json
+{
+  "code": 500,
+  "message": "Unexpected error"
+}
+```
+
 ## User error
 ```go
     if !userInput {
         logger.Warning(err)
         return reserr.NewAppError("You've made a wee mistake there :-).")
     }
+```
+
+Json:
+```json
+{
+  "code": 400,
+  "message": "You've made a wee mistake there :-)."
+}
 ```
 
 ## App error with more details
