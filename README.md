@@ -1,7 +1,7 @@
 # Open Api (2.0) common definitions.
 This repo contains a subset of [openapi](https://www.openapis.org/) definition files, written in Yaml. Please fork, add any missing pieces of common definitions or improvements :)
-Just use ['$ref'](https://github.com/OAI/OpenAPI-Specification/blob/master/versions/2.0.md#fixed-fields-4) like this:
 
+Just use ['$ref'](https://github.com/OAI/OpenAPI-Specification/blob/master/versions/2.0.md#fixed-fields-4) like this:
 ```yaml
 currency:
     $ref: "https://raw.githubusercontent.com/iain17/common-openapi/master/currency.yml?#/currency"
