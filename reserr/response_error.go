@@ -52,7 +52,17 @@ func NewAppError(message string) *UpdateUserByIDDefault {
 	}
 }
 
-func NewPermissionsError(message string) *UpdateUserByIDDefault {
+func NewNonExistenceError(subject string) *UpdateUserByIDDefault {
+	return &UpdateUserByIDDefault{
+		_statusCode: 404,
+		Payload: &Error{
+			Code: 404,
+			Message: subject+" could not be found.",
+		},
+	}
+}
+
+func NewPermissionsError() *UpdateUserByIDDefault {
 	return &UpdateUserByIDDefault{
 		_statusCode: 401,
 		Payload: &Error{
