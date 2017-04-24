@@ -1,6 +1,6 @@
 # Open Api (2.0) common definitions.
-This repo contains a subset of [openapi](https://www.openapis.org/) definition files, written in Yaml.
-To scripts to get to generate these files are located in the scripts directory. Just use ['$ref'](https://github.com/OAI/OpenAPI-Specification/blob/master/versions/2.0.md#fixed-fields-4) like this:
+This repo contains a subset of [openapi](https://www.openapis.org/) definition files, written in Yaml. Please fork, add any missing pieces of common definitions or improvements :)
+Just use ['$ref'](https://github.com/OAI/OpenAPI-Specification/blob/master/versions/2.0.md#fixed-fields-4) like this:
 
 ```yaml
 currency:
@@ -8,6 +8,7 @@ currency:
 ```
 
 ## Scripts
+All the scripts used to generate these files are located in the scripts directory.
 Written in PHP because its very easy to prototype in and make quick little scripts like this. Also developers are likely to know some PHP. Run a generation script like so from the command line:
 ```bash
 cd currency;
