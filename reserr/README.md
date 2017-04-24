@@ -1,7 +1,7 @@
 # OpenAPI: Response errors
 
 This is a common responder you can use in your Go projects, to send error messages back in a consistent manner.
-Make sure you use the [error defintion in common.yml](../common.yml) in your responses and then reply like this:
+Make sure you use the [error definition in common.yml](../common.yml) in your responses and then reply like this:
 
 ## App error:
 ```go
@@ -20,14 +20,14 @@ Make sure you use the [error defintion in common.yml](../common.yml) in your res
     }
 ```
 
-##Swagger.yml
-Your swagger definition file should look like this:
+## Swagger definition file
+Your swagger.yml file should look like this:
 ```yml
 paths:
     /example:
         post:
-          summary: Reset password of the user
-          operationId: resetPassword
+          summary: Just to give you an idea.
+          operationId: exampleOperations
           parameters:
             ...
           responses:
