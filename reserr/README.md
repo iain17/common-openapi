@@ -3,7 +3,7 @@
 This is a common responder you can use in your Go projects, to send error messages back in a consistent manner.
 Make sure you use the [error definition in common.yml](../common.yml) in your responses and then reply like this:
 
-## App error:
+## App error
 ```go
 	res, err := operation()
 	if err != nil {
@@ -18,6 +18,26 @@ Make sure you use the [error definition in common.yml](../common.yml) in your re
         logger.Warning(err)
         return reserr.NewAppError("You've made a wee mistake there :-).")
     }
+```
+
+## App error with more details
+If you'd like to give your user a little more to go on than just a "unexpected" error.
+
+```go
+ok := data.(string)//Example
+if !ok {
+    logger.Error(err)
+    return reserr.NewUnexpectedError().SetCode(1000).SetMessage("Could not decode the data.")
+}
+```
+
+This will return a error with http status code **500** and have a json response like this:
+
+```json
+{
+  "code": 1000,
+  "message": "Could not decode the data."
+}
 ```
 
 ## Swagger definition file
