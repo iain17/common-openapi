@@ -21,6 +21,8 @@ Address:
     division:
       type: string
       description: The country principal subdivision where this address is located.
+      minLength: 2
+      maxLength: 128
     locality:
       type: string
       description: City, town or village where this address is located.
@@ -38,8 +40,6 @@ Address:
     streetNumber:
       type: integer
       description: Number of the house.
-      minLength: 2
-      maxLength: 128
     addition:
       type: string
       description: Addition to the address. Making it more specific. Think room number.
