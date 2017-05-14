@@ -28,8 +28,20 @@ Address:
       maxLength: 128
     postalCode:
       type: string
-    lines:
-      type: array
-      description: Street address specficiation. An address requires at least one line.
-      items:
-        type: string
+      minLength: 2
+      maxLength: 128
+    streetName:
+      type: string
+      description: The street's name
+      minLength: 2
+      maxLength: 128
+    streetNumber:
+      type: integer
+      description: Number of the house.
+      minLength: 2
+      maxLength: 128
+    addition:
+      type: string
+      description: Addition to the address. Making it more specific. Think room number.
+      minLength: 2
+      maxLength: 128
