@@ -14,7 +14,8 @@ Address:
     - division
     - locality
     - postalCode
-    - lines
+    - streetName
+    - streetNumber
   properties:
     country:
       $ref: "https://raw.githubusercontent.com/iain17/common-openapi/master/country.yml#/country"
