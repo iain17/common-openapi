@@ -1,13 +1,16 @@
 Error:
   required:
     - code
-    - message
+    - messages
   properties:
     code:
       type: integer
       format: int32
-    message:
-      type: string
+    messages:
+      type: array
+      items:
+        type: string
+        description: A single error
 Address:
   required:
     - country
