@@ -9,8 +9,9 @@ import (
 )
 
 type Error struct {
-	Code int32 `json:"code"`
-	Messages []string `json:"messages"`
+	Code int32 `json:"code,omitempty"`
+	Message string `json:"message,omitempty"`
+	Details []string `json:"details,omitempty"`
 }
 
 
@@ -36,7 +37,7 @@ func NewUnexpectedError() *ErrorResponse {
 		_statusCode: 500,
 		Payload: &Error{
 			Code: 500,
-			Messages: []string{"Unexpected error"},
+			Message: "Unexpected error",
 		},
 	}
 }
@@ -47,7 +48,7 @@ func NewAppError(message string) *ErrorResponse {
 		_statusCode: 400,
 		Payload: &Error{
 			Code: 400,
-			Messages: []string{message},
+			Message: message,
 		},
 	}
 }
@@ -61,7 +62,7 @@ func NewPermissionsError() *ErrorResponse {
 		_statusCode: 401,
 		Payload: &Error{
 			Code: 401,
-			Messages: []string{"You are unauthorized to this request"},
+			Message: "You are unauthorized to this request",
 		},
 	}
 }
@@ -75,25 +76,25 @@ func (o *ErrorResponse) SetMessage(message string) *ErrorResponse {
 	if o.Payload == nil {
 		o.Payload = &Error{}
 	}
-	o.Payload.Messages = []string{message}
+	o.Payload.Message = message
 	return o
 }
 
-func (o *ErrorResponse) SetMessages(messages []string) *ErrorResponse {
+func (o *ErrorResponse) SetDetails(details []string) *ErrorResponse {
 	if o.Payload == nil {
 		o.Payload = &Error{}
 	}
-	o.Payload.Messages = messages
+	o.Payload.Details = details
 	return o
 }
 
-func (o *ErrorResponse) AddMessage(message string) *ErrorResponse {
+func (o *ErrorResponse) AddDetail(detail string) *ErrorResponse {
 	if o.Payload == nil {
 		o.Payload = &Error{
-			Messages: []string{},
+			Details: []string{},
 		}
 	}
-	o.Payload.Messages = append(o.Payload.Messages, message)
+	o.Payload.Details = append(o.Payload.Details, detail)
 	return o
 }
 

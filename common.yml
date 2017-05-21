@@ -6,11 +6,13 @@ Error:
     code:
       type: integer
       format: int32
-    messages:
+    message:
+      type: string
+    details:
       type: array
       items:
         type: string
-        description: A single error
+        description: Details about this error message
 Address:
   required:
     - country
